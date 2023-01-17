@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 def encrypt_otp(plaintext, key):
     ciphertext = ""
     for i in range(len(plaintext)):
